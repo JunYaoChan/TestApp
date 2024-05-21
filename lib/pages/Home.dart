@@ -79,7 +79,6 @@ class _HomePageState extends State<HomePage> {
                   right: 10,
                   top: 160,
                   child: WeatherWindow()),
-              ImagePickerWidget(),
             ])
       ),
         Wardrobe(),

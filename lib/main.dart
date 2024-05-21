@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/pages/CreateAccount.dart';
 import 'package:test_project/pages/Loading.dart';
 import 'package:test_project/pages/Home.dart';
-import 'package:test_project/pages/Signup.dart';
-import 'package:test_project/pages/Signin.dart';
+
 
 //This is the main function and will be run when the app starts
-void main() => runApp(MaterialApp(
+void main() => runApp(
+    MaterialApp(
       //Set entire app theme
       theme: ThemeData(
         useMaterial3: true,
@@ -18,8 +17,5 @@ void main() => runApp(MaterialApp(
       routes: {
         '/': (context) => Loading(),
         '/home': (context) => Home(),
-        '/signup': (context) => Signup(),
-        '/signin': (context) => Signin(),
-        '/createAccount': (context) => CreateAccount(),
       },
     ));

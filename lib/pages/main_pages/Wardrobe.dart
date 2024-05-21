@@ -30,12 +30,7 @@ class _WardrobeState extends State<Wardrobe> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Row(
-            children: [
-              Placeholder(),
-              Placeholder()
-            ],
-          ),
+          Placeholder(),
           Row( mainAxisAlignment: MainAxisAlignment.center,
             children: [
             IconButton(onPressed: (){}, icon: Icon(Icons.camera_alt)),
